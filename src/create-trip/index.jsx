@@ -119,7 +119,7 @@ function CreateTrip() {
         <div>
           <h2 className='text-xl my-3 font-medium'>How many days are you planning your trip?</h2>
           <Input placeholder={'Ex.3'} type="number"
-            value={formData?.noOfDays || ''}
+            value={formData?.noOfDays}
             onChange={(e) => handleInputChange('noOfDays', e.target.value)}
           />
         </div>
@@ -159,7 +159,7 @@ function CreateTrip() {
         </div>
       </div>
 
-      <div className='my-10 flex justify-end'>
+      <div className='my-5 flex justify-end'>
         <Button disabled={loading} className='cursor-pointer'
           onClick={OnGenerateTrip}>
             {loading ?
