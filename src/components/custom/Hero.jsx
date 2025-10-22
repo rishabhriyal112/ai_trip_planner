@@ -21,7 +21,7 @@ function Hero() {
         {/* Foreground content (sharp text & button) */}
         <div className='relative z-10 flex flex-col items-center text-center gap-6 mt-36 px-6'>
           <h1 className='font-extrabold text-[50px] drop-shadow-lg'>
-            <span className='text-[#f56551] '>Discover Your Next Adventure with AI:</span> Personalized Itineraries at Your Fingertips
+            <span className='text-[#f56551] text-[52px]'> Discover Your Next Adventure with AI : </span>  Personalized Itineraries at Your Fingertips
           </h1>
 
           <h1 className='text-xl text-gray-200  drop-shadow-[2px_2px_2px_rgba(0,0,0,0.8)] '>
